@@ -1,48 +1,52 @@
-class Person: ...
-#     blood_group = "O"
+# https://www.youtube.com/@digitalrwanda
+
+
+
+class Person: 
+    blood_group = "O"
     
-#     def __init__(self, name, age, gender):
-#         self.name = name
-#         self.age = age
-#         self.gender = gender
+    def __init__(self, name, age, gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
         
     
-#     def dancing(self, name: str) -> str:
-#         return f"I know how to dance, and I am {name}"
+    def dancing(self, name: str) -> str:
+        return f"I know how to dance, and I am {name}"
     
-#     def running(self) -> str:
-#         return "I know how to run"
+    def running(self) -> str:
+        return "I know how to run"
     
-#     def sleep_in_class(self) -> str:
-#         return "I know outcome of sleeping in the class"
+    def sleep_in_class(self) -> str:
+        return "I know outcome of sleeping in the class"
     
-#     def blood(self, group: str) -> str:
-#         b=self.blood_group
-#         self.blood_group = group
-#         return f"The bood group is changed from {b} to {self.blood_group}"
+    def blood(self, group: str) -> str:
+        b=self.blood_group
+        self.blood_group = group
+        return f"The bood group is changed from {b} to {self.blood_group}"
         
 
-# person1 = Person("Ketia", 18, "Female")
+person1 = Person("Ketia", 18, "Female")
 
 
-# print(person1.blood("AA"))
+print(person1.blood("AA"))
 
-# print(person1.name)
-# print(person1.age)
-# print(person1.gender)
-# print(person1.blood_group)
+print(person1.name)
+print(person1.age)
+print(person1.gender)
+print(person1.blood_group)
 
 
-# person2 = Person("John Doe", 45, "Male")
+person2 = Person("John Doe", 45, "Male")
 
-# print("\n")
+print("\n")
 
-# print(person2.blood("AB"))
+print(person2.blood("AB"))
 
-# print(person2.name)
-# print(person2.age)
-# print(person2.gender)
-# print(person2.blood_group)
+print(person2.name)
+print(person2.age)
+print(person2.gender)
+print(person2.blood_group)
 
 
 from typing import Union
@@ -131,30 +135,30 @@ Logical: not, and, or
 """
 
 
-# print(6+4-2*4-6/5)
+print(6+4-2*4-6/5)
 
-# # 6+4-8
+# 6+4-8
 
     
 
-# def ranges(start: int, stop: int = None, step: int = 1) -> int:
-#     if stop is None:
-#         stop = start
-#         start = 0
+def ranges(start: int, stop: int = None, step: int = 1) -> int:
+    if stop is None:
+        stop = start
+        start = 0
         
-#     if step == 0:
-#         raise ValueError("Yield got unexpected output..?")
+    if step == 0:
+        raise ValueError("Yield got unexpected output..?")
         
-#     while (step > 0 and  start < stop) or (step < 0 and start > stop):
-#         yield start
-#         start += step
+    while (step > 0 and  start < stop) or (step < 0 and start > stop):
+        yield start
+        start += step
         
-# print(x for x in ranges(1,4))
+print(x for x in ranges(1,4))
 
 
-# print(range(4))
+print(range(4))
 
-# for i in ranges(1,5,2):
-#     print (i)
+for i in ranges(1,5,2):
+    print (i)
 
     

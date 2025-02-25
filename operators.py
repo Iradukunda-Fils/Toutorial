@@ -1,58 +1,62 @@
-# #Althimetic operators
-
-# a = 10
-
-# b = 2
-
-# #division
-
-# print(int(10 / 2))
-
-# #multiplication
-
-# print(2*20)
-
-
-# #modulus
-
-# print(10%3)
-
-# #subtract
-
-# print(10-3)
-
-# #addition
-
-# print(10+5)
-
-
-#Fool division //
+# https://www.youtube.com/@digitalrwanda
 
 
 
-# print(10/4)
-# print(10//4)
+#Althimetic operators
 
-# print(-10/2)
-# print(-10//2)
+a = 10
 
+b = 2
 
-#Comparison operators
+#division
 
-# print(10 >= 5)
+print(int(10 / 2))
 
-# print(10 <= 15)
+#multiplication
 
-# print(10 > 5)
-
-# print(10 < 15)
-
-# print(10 > 5)
+print(2*20)
 
 
-# print(1 == 1)
+#modulus
 
-# print(1 != 2)
+print(10%3)
+
+#subtract
+
+print(10-3)
+
+#addition
+
+print(10+5)
+
+
+# Fool division //
+
+
+
+print(10/4)
+print(10//4)
+
+print(-10/2)
+print(-10//2)
+
+
+# Comparison operators
+
+print(10 >= 5)
+
+print(10 <= 15)
+
+print(10 > 5)
+
+print(10 < 15)
+
+print(10 > 5)
+
+
+print(1 == 1)
+
+print(1 != 2)
 
 
 
@@ -62,76 +66,76 @@ a = 10
 
 b = 3
 
-# c = 10
+c = 10
 
-# d = 2
+d = 2
 
-# c -= d
+c -= d
 
-# print(c)
+print(c)
 
-# a += b
+a += b
 
-# print(a)
-
-
-# a = 3
-
-# b = 2
-
-# a**=b
-
-# print(a)
+print(a)
 
 
-# #identity Operators
+a = 3
 
-# #is and is not
+b = 2
 
-# b = ["good", "health", "care"]
+a**=b
 
-# c = ["good", "health", "care"]
+print(a)
 
-# print(type(b))
-# print(type(c))
 
-# print(id(b))
-# print(id(c))
+#identity Operators
 
-# print(b == c)
+#is and is not
 
-# print(b == c)
+b = ["good", "health", "care"]
+
+c = ["good", "health", "care"]
+
+print(type(b))
+print(type(c))
+
+print(id(b))
+print(id(c))
+
+print(b == c)
+
+print(b == c)
 
 
 #Membership Operators
 # in and not in
 
-# food = ("rice", "banana", "apple", "avocado")
+food = ("rice", "banana", "apple", "avocado")
 
-# print("rice" in food)
+print("rice" in food)
 
-# print("superget" not in food)
+print("superget" not in food)
 
 
-# greeting = "Hello, Python World!"
+greeting = "Hello, Python World!"
 
-# print("World" in greeting)
+print("World" in greeting)
 
-# b = "Hello, World"
+b = "Hello, World"
 
-# print(not b)
+print(not b)
 
 
 #Logical Operators
 # And Or not
 
-# var = 11
+var = 11
 
 
-# print(var >= 30 and var <= 50)
+print(var >= 30 and var <= 50)
 
-# print(30 <= var <= 50)
+print(30 <= var <= 50)
 
-# print(var <=30 or var >= 20)
+print(var <=30 or var >= 20)
 
-# print(not var > 10)
+print(not var > 10)

@@ -1,14 +1,15 @@
-
-# var = 9 + 5j
-
-# var1 = 1 + 2j
-
-# result = var * var1
+# https://www.youtube.com/@digitalrwanda
 
 
-# print(result.real, result.imag)
+var = 9 + 5j
 
-# comp = complex(1, 5)
+var1 = 1 + 2j
 
-# print(comp.real, comp.imag)
+result = var * var1
+
+print(result.real, result.imag)
+
+comp = complex(1, 5)
+
+print(comp.real, comp.imag)
 

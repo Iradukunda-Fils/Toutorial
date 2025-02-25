@@ -1,32 +1,35 @@
+# https://www.youtube.com/@digitalrwanda
+
+
 # This is the variable
 
-# h = "heloo, world..!"
+h = "heloo, world..!"
 
-# """Hello Millions of codes 132"""
+"""Hello Millions of codes 132"""
 
-# '''This is another test'''
+'''This is another test'''
 
-# millions = "helloo am millions of codes..!"
+millions = "helloo am millions of codes..!"
 
-# print(h, "\n", millions)
+print(h, "\n", millions)
 
-# string = "74"
+string = "74"
 
-# string = int(string)
+string = int(string)
 
-# print(type(string))
+print(type(string))
 
-# boolean = True
+boolean = True
 
-# boolean = str(boolean)
+boolean = str(boolean)
 
-# print(type(boolean))
+print(type(boolean))
 
-# integer = 545
+integer = 545
   
-# integer = str(integer)
+integer = str(integer)
 
-# print(type(integer))
+print(type(integer))
 
 """
 string = "True"
@@ -39,8 +42,8 @@ print(type(string))
 
 
 
-# print(type(bool("True")))
-# print(type(int("534")))
+print(type(bool("True")))
+print(type(int("534")))
 
 
 unorg = '''

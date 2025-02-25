@@ -1,32 +1,36 @@
-# # Datastructures
-#   #Linear Datastructures
+# https://www.youtube.com/@digitalrwanda
+
+
+
+# Datastructures
+  #Linear Datastructures
   
-# #List
+#List
 
-# vegetables = ["apple", 732, True, "banana"]
+vegetables = ["apple", 732, True, "banana"]
 
-# print(vegetables)
+print(vegetables)
 
-# #Tuple
+#Tuple
 
-# tuples = ('apple', "banana", "cherry", 1000)
+tuples = ('apple', "banana", "cherry", 1000)
 
-# print(tuples)
+print(tuples)
 
-# #String
+#String
 
-# person = "man, is bigger"
+person = "man, is bigger"
 
-# print(person)
+print(person)
 
-# #Bytes
+#Bytes
 
-# byte = bytes([1, 2, 3, 4])
+byte = bytes([1, 2, 3, 4])
 
-# print(byte)
+print(byte)
 
-# #Byte Array
+#Byte Array
 
-# bytearrays = bytearray([1, 3, 4, 5])
-# print(bytearrays)
+bytearrays = bytearray([1, 3, 4, 5])
+print(bytearrays)
 

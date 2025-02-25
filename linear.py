@@ -1,28 +1,30 @@
+# https://www.youtube.com/@digitalrwanda
+
 #lists
 
-# vegetables = ["apple", "banana", "cherry", "Mango"]
+vegetables = ["apple", "banana", "cherry", "Mango"]
 
-# """
-# [start:end]
-# 0,1,2,----,10
-# """
+"""
+[start:end]
+0,1,2,----,10
+"""
 
-# print(vegetables[::3])
+print(vegetables[::3])
 
 
 #tuple
 
-# hummans = ('alice', "john", "emil", "grass")
+hummans = ('alice', "john", "emil", "grass")
 
-# print(hummans[:3])
-
-
-#string
+print(hummans[:3])
 
 
-# h = "Hello, World!"
+string
 
-# print(h[4::3])
+
+h = "Hello, World!"
+
+print(h[4::3])
 
 #Camel case
 
