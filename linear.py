@@ -2,29 +2,44 @@
 
 #lists
 
-vegetables = ["apple", "banana", "cherry", "Mango"]
+vegetables = ("apple", "banana", "cherry", "Mango", "Avocado")
 
-"""
-[start:end]
-0,1,2,----,10
-"""
+print(tuple(i for i in enumerate(vegetables)))
 
-print(vegetables[::3])
+
+# print(vegetables)
+
+
+
+
+
+# vegetables = {1:"apple", 2:"banana", 3:"cherry", 4:"Mango", 5:"Avocado"}
+
+
+# for i, (key, value) in enumerate(vegetables.items(), start=101):
+#     print(i, key, value)
+
+# """
+# [start:end]
+# 0,1,2,----,10
+# """
+
+# print(vegetables[::3])
 
 
 #tuple
 
-hummans = ('alice', "john", "emil", "grass")
+# hummans = ('alice', "john", "emil", "grass")
 
-print(hummans[:3])
-
-
-string
+# print(hummans[:3])
 
 
-h = "Hello, World!"
+# string
 
-print(h[4::3])
+
+# h = "Hello, World!"
+
+# print(h[4::3])
 
 #Camel case
 
@@ -99,16 +114,16 @@ print(h[4::3])
 
 # print(location)
 
-price = 4434088329.92039
-widget = 9
+# price = 4434088329.92039
+# widget = 9
 
-msg = "The widget is {0:5} The price is {1:,.2f} \n"
-msg1 = "The widget is {0:<05} < The price is {1:,.2f}"
-msg2 = "The widget is {0:>05} > The price is {1:,.2f}"
-msg3 = "The widget is {0:^06} == The price is {1:,.2f}"
-# msg = "The widget is {w} The price is {p:,.2%}"
+# msg = "The widget is {0:5} The price is {1:,.2f} \n"
+# msg1 = "The widget is {0:<05} < The price is {1:,.2f}"
+# msg2 = "The widget is {0:>05} > The price is {1:,.2f}"
+# msg3 = "The widget is {0:^06} == The price is {1:,.2f}"
+# # msg = "The widget is {w} The price is {p:,.2%}"
 
-print(msg.format(widget,price))
-print(msg1.format(widget,price))
-print(msg2.format(widget,price))
-print(msg3.format(widget,price))
+# print(msg.format(widget,price))
+# print(msg1.format(widget,price))
+# print(msg2.format(widget,price))
+# print(msg3.format(widget,price))
